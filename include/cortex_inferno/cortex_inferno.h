@@ -1,0 +1,18 @@
+#pragma once
+// ── CortexInferno: Unified Public Header ──
+#include "core/allocator.h"
+#include "core/tensor.h"
+#include "core/dma_manager.h"
+#include "core/memory_planner.h"
+#include "kernels/scalar_matmul_int8.h"
+#include "kernels/quantize.h"
+#include "kernels/activations.h"
+#include "layers/layer.h"
+#include "layers/dense_layer.h"
+#include "layers/conv2d_layer.h"
+#include "layers/pooling_layer.h"
+#include "layers/activation_layer.h"
+#include "layers/flatten_layer.h"
+#include "layers/softmax_layer.h"
+#include "runtime/graph_executor.h"
+#include "runtime/rtos_interface.h"
